@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(31, 29, 29);
+    background: linear-gradient(rgba(0, 0, 0, 0.966), rgb(180, 149, 149));
+}
+
+.title, h1 {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 3.5rem;
+    margin: 20px;
+    padding-bottom: 1.5rem;
+}
+
+.container {
+    text-align: center;
+    padding: 3.5rem;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    flex: 0 0 60%;
+    border-radius: 38% 62% 66% 37% /89% 60% 75% 59%;
+}
+
+.poemBtn {
+    background-color: rgb(31, 29, 29);
+    padding: 1rem 2.5rem;
+    color: blanchedalmond;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 38% 62% 66% 37% / 41% 44% 56% 59%;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.poemBtn:hover, .poemBtn:focus {
+    color: rgb(22, 19, 19);
+    background-color: blanchedalmond;
+    border: solid 2px rgb(70, 1, 1);
+    border-radius: 38% 62% 66% 37% / 41% 44% 56% 59%;
+    
+}
+
+.poetryGenContainer {
+    margin: 0;
+}
+
+.poetryGen, .poetryGenTwo, .poetryGenThree {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    color: rgb(22, 19, 19);
+    background-color: none;
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
